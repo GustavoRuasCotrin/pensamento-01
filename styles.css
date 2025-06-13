@@ -4,5 +4,5 @@ body {
 }
  
 header{
-    boarder: solid 2px rgb(20, 10, 15);
+    boarder-bottom: solid 2px rgb(20, 10, 15);
 }
