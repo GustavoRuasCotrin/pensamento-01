@@ -6,5 +6,12 @@ body {
  
 header{
     boarder-bottom: solid 2px rgb(20, 10, 15);
-    margin: 20px
+    padding: 20px
+    padding-top: 80px
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    margin-right: 20px;
 }
