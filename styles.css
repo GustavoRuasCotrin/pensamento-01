@@ -1,8 +1,10 @@
 body {
     color:rgb(0, 0, 0);
     background:rgb(120, 146, 4);
+    margin: 0px
 }
  
 header{
     boarder-bottom: solid 2px rgb(20, 10, 15);
+    margin: 20px
 }
