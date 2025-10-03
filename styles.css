@@ -20,6 +20,7 @@ button {
 }
 
 .passo.ativo {
+    background-color: blue;
     display:block;
 }
 
