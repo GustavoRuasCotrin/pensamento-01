@@ -1,9 +1,11 @@
-<body>
+const avanca = document.querySelectorAll('.btn-proximo');
 
-<header>RUASFLIX</header>
+avanca.forEach(button => {
+    button.addEventListener('click', function(){
+        const atual = document.querySelector('.ativo');
+        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
 
-<h1>SHREK 2 SUPERA O PRIMEIRO FILME?</h1>
-<p>#sherek2</p>
-<infrime width="560" heigth="315" src="https://youtu.be/JkaKzyIo08I?si=buJUZeill-ZoFiss"
-
-</body>
+        atual.classList.remove('ativo');
+        document.getElementById(proximoPasso).classList.add('ativo');
+    })
+})
